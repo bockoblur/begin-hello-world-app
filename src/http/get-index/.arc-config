@@ -1,2 +1,6 @@
 @aws
 runtime deno
+
+@http
+get /pdf/:bytes
+put /pdf/:wcstscore
